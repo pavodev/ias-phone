@@ -19,7 +19,7 @@ from rest_framework import routers
 from iasphoneapp import views
 
 router = routers.DefaultRouter()
-router.register(r'restaurants', views.PersonViewSet)
+router.register(r'persons', views.PersonViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
