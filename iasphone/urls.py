@@ -22,6 +22,7 @@ router = routers.DefaultRouter()
 router.register(r'persons', views.PersonViewSet)
 
 urlpatterns = [
+        path('login/', views.LoginView.as_view()),
     path('', include(router.urls)),
     path('admin/', admin.site.urls)
 ]
