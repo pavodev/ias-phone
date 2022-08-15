@@ -1,0 +1,20 @@
+[
+  {
+    "model": "iasphoneapp.person",
+    "pk": 1,
+    "fields": {
+      "name": "Ivan",
+      "surname": "Pavic",
+      "email": "ivan96jp@gmail.com"
+    }
+  },
+  {
+    "model": "iasphoneapp.person",
+    "pk": 2,
+    "fields": {
+      "name": "Alen",
+      "surname": "Gavranovic",
+      "email": "alengavra19@gmail.com"
+    }
+  }
+]
